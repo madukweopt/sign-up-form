@@ -1,0 +1,25 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(../../Downloads/david-clode-yLDVDimvwZk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50vw 100%;
+}
+
+.content {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+
+header,footer {
+    background-color: rgb(222, 226, 236);
+    width: 50vw;
+}
