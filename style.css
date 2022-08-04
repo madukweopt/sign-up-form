@@ -3,12 +3,12 @@ body,html {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: flex-end;
     background-image: url(../../Downloads/david-clode-yLDVDimvwZk-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50vw 100%;
+   
 }
 
 .content {
@@ -16,10 +16,53 @@ body,html {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   max-width: 50vw;
+   height: 150vh;
+   position: relative;
 }
 
 
 header,footer {
     background-color: rgb(222, 226, 236);
     width: 50vw;
+    height: 25%;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    margin-top: px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    
+}
+
+.image {
+    position: absolute;
+    left: 0px;
+    bottom: 250px;
+    font-size: 30px;
+    color: white;
+    width: 50vw;
+    height: 70px;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+img { 
+    width: 5vw;
+    height: 5vw;
+
+}
+
+span {
+    position: relative;
+    bottom: 15px;
+    left: 4px;
 }
