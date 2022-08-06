@@ -119,6 +119,12 @@ button {
     outline: none;
     
 }
+
+.first-form > div > input:invalid, .second-form > div > input:invalid {
+    border-color: red;
+
+}
+
 .first-form > div > input:focus, .second-form > div > input:focus  {
     border-color: rgba(0, 0, 255, 0.342)
     
