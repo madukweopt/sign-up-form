@@ -1,52 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
 body,html {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-image: url(../../Downloads/david-clode-yLDVDimvwZk-unsplash.jpg);
+    background-image: url(images/david-clode-yLDVDimvwZk-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50vw 210vh;
     box-sizing: border-box;
-   
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .content {
-   background-color: white;
+   background-color: rgb(235, 165, 200);
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   max-width: 50vw;
+   width: 43rem;
    height: 200vh;
    position: relative;
 
 }
 
-
 header,footer {
     background-color: rgb(222, 226, 236);
-    width: 50vw;
-    height: 25%;
-
-}
-
-header, footer{
-    text-align: center;
+    width: 43rem;
+    height: 50vh;
     padding: 4rem 3rem;
     box-sizing: border-box;
-    font-size: 1.7rem;
+    font-size: 2vw;
+    font-family: 'Gentium Book Plus', 'Berkshire Swash', 'Times New Roman', Times, serif;
+    line-height: 2.5rem;
 }
 
 #form-header {
     margin-left: 50px;
     font-size: 2rem;
+
 }
 
-.form-container {
+.my-form {
     display: flex;
     padding-left: 50px;
-    gap: 12%;
+    gap: 10%;
+    height: 90vh;
     
 }
 
@@ -62,9 +62,19 @@ header, footer{
     padding: 15px;
     text-align: center;
     opacity: 0.7;
-
+    font-family: 'monoton', 'Times New Roman', Times, serif;
 
 }
+
+.image > span {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 10px;
+
+}
+
 img { 
     width: 5vw;
     height: 5vw;
@@ -72,10 +82,16 @@ img {
 }
 
 .second-form, .first-form {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+
+}
+
+.select-option {
+    margin-top: 0px;
+
 }
 
 button {
@@ -86,6 +102,15 @@ button {
     font-size: 1.2rem;
     color: white;
     margin-bottom: 25px;
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+
+}
+
+#footer-text {
+    margin-top: 30px;
+    margin-left: 5px;
 }
 
 .first-form > div > input, .second-form > div > input {
@@ -102,13 +127,16 @@ input[type='checkbox'], [type='radio'] {
     appearance: none;
     height: 20px;
     width: 20px;
-    border: solid 1px grey;
+    border: solid 1px black;
     vertical-align: -6px;
     position: relative;
+
 }
 input[type='radio'] {
     border-radius: 50px;
+
 }
+
 input[type='checkbox']::before, input[type='radio']::before {
     content: '';
     position: absolute;
@@ -116,12 +144,17 @@ input[type='checkbox']::before, input[type='radio']::before {
     visibility: hidden;
 
 }
+
 input[type='checkbox']:checked::before, input[type='radio']:checked::before {
     visibility: visible;
+
 }
+
 input[type='radio']::before {
     border-radius: 50%;
+
 }
+
 select {
     appearance: none;
     padding: 10px;
@@ -130,23 +163,29 @@ select {
     border: solid 2px gray;
 
 }
+
 .select-container {
     position: relative;
    
 }
+
 .select-container::after {
     content:'▼';
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    bottom: 5px;
     right: 50px;
     
 }
+
 fieldset {
 margin-top: 50px;
+
 }
 
 .select-option {
     margin-bottom: 1px;
+    
 }
         
 
