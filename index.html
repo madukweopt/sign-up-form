@@ -43,27 +43,27 @@
                                 <legend>Select your Chocolates</legend> 
                                 
                                 <p>
-                                <input type="radio" name="payment-option" id="dark-chocolate" value="dark-chocolate">
+                                <input type="checkbox" name="payment-option" id="dark-chocolate" value="dark-chocolate">
                                 <label for="dark-chocolate">Dark Chocolate</label> 
                                 </p>
 
                                 <p>
-                                <input type="radio" name="payment-option" id="almond-dark-chocolates" value="almond-dark-chocolates">
+                                <input type="checkbox" name="payment-option" id="almond-dark-chocolates" value="almond-dark-chocolates">
                                 <label for="almond-dark-chocolates">Almond Dark Chocolates</label> 
                                 </p>
 
                                 <p>
-                                <input type="radio" name="payment-option" id="white-bark" value="white-bark">
+                                <input type="checkbox" name="payment-option" id="white-bark" value="white-bark">
                                 <label for="white-bark">White Bark</label> 
                                 </p>
 
                                 <p>
-                                <input type="radio" name="payment-option" id="milk-chocolate" value="milk-chocolate">
+                                <input type="checkbox" name="payment-option" id="milk-chocolate" value="milk-chocolate">
                                 <label for="milk-chocolate">Milk Chocolates</label> 
                                 </p>
 
                                 <p>
-                                <input type="radio" name="payment-option" id="unflavored-chocolate" value="unflavored-chocolate">
+                                <input type="checkbox" name="payment-option" id="unflavored-chocolate" value="unflavored-chocolate">
                                 <label for="unflavored-chocolate">Unflavored Chocolate</label> 
                                 </p>   
                             </fieldset>            
@@ -96,10 +96,10 @@
                                     <label for="debit-card">Debit Card</label> 
                                 </p>
                             </fieldset>
-                            <p>
-                                <div>
-                                Select food
-                                </div>
+
+                            <p class="select-option">                              
+                             <div>Select food</div>
+                              <div class="select-container"> 
                                 <select name="food" id="">
                                     <optgroup label="High Cost">
                                         <option value="yam">Yam and Egg Sauce</option>
@@ -111,7 +111,8 @@
                                         <option value="beans">Beans</option>
                                     </optgroup>
                                 </select>
-                            </p>
+                               </div>
+                           </p>
 
                         </form>
                 </div>
