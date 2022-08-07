@@ -9,9 +9,10 @@ body,html {
     background-image: url(images/david-clode-yLDVDimvwZk-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 50vw 210vh;
+    background-size: 50% 1400px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    min-width: 800px;
 }
 
 .content {
@@ -19,16 +20,17 @@ body,html {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   width: 43rem;
-   height: 200vh;
+   width: 50%;
+   height: 1400px;
    position: relative;
+   min-width: 400px;
+   box-sizing: border-box;
 
 }
 
 header,footer {
     background-color: rgb(222, 226, 236);
-    width: 43rem;
-    height: 50vh;
+    height: 43rem;
     padding: 4rem 3rem;
     box-sizing: border-box;
     font-size: 2vw;
@@ -46,7 +48,10 @@ header,footer {
     display: flex;
     padding-left: 50px;
     gap: 10%;
-    height: 90vh;
+    height: 650px;
+    width: 50%;
+    margin-right: 10px;
+    min-height: 500px;
     
 }
 
@@ -54,9 +59,10 @@ header,footer {
     position: absolute;
     left: 0px;
     bottom: 250px;
-    font-size: 3rem;
+    font-size: 5vw;
     color: white;
     width: 50vw;
+    min-width: 400px;
     height: 70px;
     background-color: black;
     padding: 15px;
@@ -70,8 +76,9 @@ header,footer {
     display: inline-block;
     height: 50px;
     position: relative;
-    bottom: 15px;
-    margin-left: 10px;
+    bottom: 15%;
+    margin-left: 2vw;
+    margin-right: 5px;
 
 }
 
@@ -114,8 +121,8 @@ button {
 }
 
 .first-form > div > input, .second-form > div > input {
-    padding: 10px;
-    width: 200px;
+    padding: 1vw;
+    width: 16vw;
     outline: none;
     
 }
@@ -164,7 +171,7 @@ input[type='radio']::before {
 select {
     appearance: none;
     padding: 10px;
-    width: 200px;
+    width: 16vw;
     border-radius: 10px;
     border: solid 2px gray;
 
